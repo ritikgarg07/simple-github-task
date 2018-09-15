@@ -9,4 +9,4 @@ factorial_of = int(input("Enter the number whose factorial is to be calculated :
 while factorial_of < 0:
     print("The factorial of " + str(factorial_of) + " is not defined! Factorials are only defined for positive numbers. Let's try again!\n")
     factorial_of = int(input("Enter the number whose factorial is to be calculated : "))
-print('The required answer is :' , factorial(y)
+print('The required answer is :' , factorial(factorial_of)
